@@ -1,0 +1,405 @@
+{
+  "directory": "./IconLibrary/",
+  "library": [
+    {
+      "name": "Blank",
+      "type": "Icon",
+      "url": "",
+      "svg": "templates/Blank_template.svg",
+      "file": "Green_blank.svg",
+      "color": "green"
+    },
+    {
+      "name": "Application",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14298045/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-App-A-White-RGB.svg",
+      "file": "Application.svg",
+      "color": "green"
+    },
+    {
+      "name": "Monolith",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14317015/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Apps_Multiple-A-White-RGB.svg",
+      "file": "Monolith.svg",
+      "color": "green"
+    },
+    {
+      "name": "Containerized Application",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14352815/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software-Containerized_App-A-White-RGB.svg",
+      "file": "Containerized_application.svg",
+      "color": "green"
+    },
+    {
+      "name": "Microservice",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14358985/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_Technologies-Microservices-A-White-RGB.svg",
+      "file": "Microservice.svg",
+      "color": "green"
+    },
+    {
+      "name": "Containerized Microservice",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14350685/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_Technologies-Container_Microservice-A-White-RGB.svg",
+      "file": "Containerized_microservice.svg",
+      "color": "green"
+    },
+    {
+      "name": "Function",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13367195/IconRedHatObj...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Objects-Gear_Single-A-White-RGB.svg",
+      "file": "Function.svg",
+      "color": "green"
+    },
+    {
+      "name": "Blank",
+      "type": "Icon",
+      "url": "",
+      "svg": "templates/Blank_template.svg",
+      "file": "Lightblue_blank.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Bare Metal",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13403235/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Server_A-A-White-RGB.svg",
+      "file": "Bare_metal.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Hypervisor",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14246545/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Hypervisor-A-White-RGB.svg",
+      "file": "Hypervisor.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Virtual Machine",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13422835/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Virtual_Server-A-White-RGB.svg",
+      "file": "Virtual_machine.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Cloud",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14327495/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Cloud-A-White-RGB.svg",
+      "file": "Cloud.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Private Cloud",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14331645/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Cloud_private-A-White-RGB.svg",
+      "file": "Private_cloud.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Multicloud",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15499945/IconRedHatMul...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Multi-cloud-A-White-RGB.svg",
+      "file": "Multicloud.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Container",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14342715/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software-Container-A-White-RGB.svg",
+      "file": "Container.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Mobile",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14163515/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Mobile_Devices-A-White-RGB.svg",
+      "file": "Mobile.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Edge Device",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-16337765/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-Circuit-A-White-RGB.svg",
+      "file": "Edge_device.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Edge",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15467445/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Edge-A-White-RGB.svg",
+      "file": "Edge.svg",
+      "color": "lightblue"
+    },
+    {
+      "name": "Blank",
+      "type": "Icon",
+      "url": "",
+      "svg": "templates/Blank_template.svg",
+      "file": "Darkblue_blank.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Application Server",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15461235/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-App_on_server-A-White-RGB.svg",
+      "file": "Application_server.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Decision Management",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14284615/IconRedHatPeo...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-People_and_Audiences-Architect-A-White-RGB.svg",
+      "file": "Decision_management.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Process Automation",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14358285/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_Technologies-Orchestration-A-White-RGB.svg",
+      "file": "Process_automation.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Datagrid",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-17193385/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-cluster-A-White-RGB.svg",
+      "file": "Datagrid.svg",
+      "color": "darkblue"
+	},
+    {
+      "name": "API",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-16342675/IconRedHatAPIAWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-API-A-White-RGB.svg",
+      "file": "API.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Message Broker",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-18149655/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-Envelope-A-White-RGB.svg",
+      "file": "Message_broker.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Event Streaming",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14354435/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Data-A-White-RGB.svg",
+      "file": "Event_streaming.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Connector",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-15530045/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-Link-A-White-RGB.svg",
+      "file": "Connector.svg",
+      "color": "darkblue"
+	},
+    {
+      "name": "Data Router",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15521405/IconRedHatMul...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Multiply-A-White-RGB.svg",
+      "file": "Data_router.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Automation",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14320235/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_Technologies-Automation-A-White-RGB.svg",
+      "file": "Automation.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "CI/CD Pipeline",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15485835/IconRedHatDia...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Diagrams-Progression-A-White-RGB.svg",
+      "file": "CI_CD_pipeline.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Data Science",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14214635/IconRedHatDia...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Diagrams-Graph_Exponential_Up-A-White-RGB.svg",
+      "file": "Data_science.svg",
+      "color": "darkblue"
+    },
+    {
+      "name": "Blank",
+      "type": "Icon",
+      "url": "",
+      "svg": "templates/Blank_template.svg",
+      "file": "Darkgray_blank.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Web Service",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15475945/IconRedHatWebsiteAWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Website-A-White-RGB.svg",
+      "file": "Web_service.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Service Catalog",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14325115/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Catalog-A-White-RGB.svg",
+      "file": "Service_catalog.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Developer IDE",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14285305/IconRedHatPeo...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-People_and_audiences-Developer-A-White-RGB.svg",
+      "file": "Developer_ide.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Source Code Management",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-14301965/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-People_and_audiences-Operations-A-White-RGB.svg",
+      "file": "Source_code_management.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Automated Testing",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13379705/IconRedHatObj...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Clipboard_Checklist-A-White-RGB.svg",
+      "file": "Automated_testing.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Container Registry",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-16340285/IconRedHatCon...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Container_Registry-A-White-RGB.svg",
+      "file": "Container_registry.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Scanning Tool",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13366965/IconRedHatObj...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Objects-Magnifying_Glass-A-White-RGB.svg",
+      "file": "Scanning_tool.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Directory",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-16353465/IconRedHatGro...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Grooming-A-White-RGB.svg",
+      "file": "Directory.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Identity",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-18078115/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-Single_sign_on-A-White-RGB.svg",
+      "file": "Identity.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Logging",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15515085/IconRedHatBookAWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Book-A-White-RGB.svg",
+      "file": "Logging.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Monitoring and Management",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-15494145/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-IT_Optimization-A-White-RGB.svg",
+      "file": "Monitoring_management.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Load Balancer",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14166925/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Router_Load_Balancer-A-White-RGB.svg",
+      "file": "Load_balancer.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Router",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14355555/IconRedHatSof...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Gateway-A-White-RGB.svg",
+      "file": "Router.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Firewall",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14238135/IconRedHatObj...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Objects-Shield-A-White-RGB.svg",
+      "file": "Firewall.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Name Service",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-15462735/IconRedHatClo...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Cloud_inspect-A-White-RGB.svg",
+      "file": "Name_service.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Network Time Protocol",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-13382005/IconRedHatObj...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Objects-Clock-A-White-RGB.svg",
+      "file": "Network_time_protocol.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Database",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/p-14170585/Icon-Red_Hat-...White-RGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Storage-A-White-RGB.svg",
+      "file": "Database.svg",
+      "color": "darkgray"
+    },
+    {
+      "name": "Data Lake",
+      "type": "Icon",
+      "url": "https://pnt.redhat.com/pnt/d-14176685/IconRedHatHar...AWhiteRGB.svg",
+      "svg": "Icon-Red_Hat-Hardware-Storage_Stack-A-White-RGB.svg",
+      "file": "Data_lake.svg",
+      "color": "darkgray"
+    }
+  ]
+}

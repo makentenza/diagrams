@@ -1,0 +1,9 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="network detail" style="shape=image;aspect=fixed;image=data:image/svg+xml,##IMAGE##;fontFamily=Red Hat Text;fontSize=18;fontColor=#FFFFFF;align=left;spacingLeft=20;spacing=0;spacingBottom=2;imageAspect=0;connectable=0;recursiveResize=0;movable=0;resizable=0;rotatable=0;cloneable=0;" vertex="1" parent="1">
+            <mxGeometry width="200" height="56" as="geometry"/>
+        </mxCell>
+    </root>
+</mxGraphModel>

@@ -1,0 +1,408 @@
+<html>
+<title>Draw.io Embedded</title>
+<head>
+    <style type="text/css">
+        html, body, #wrapper {
+            height:100%;
+            width:100%;
+            margin:0;
+            padding:0;
+            border:0;
+        }
+        table#wrapper {
+            height:75%;
+        }
+        #wrapper td {
+            vertical-align:middle;
+            text-align:center;
+        }
+        iframe {
+            border:0;
+            position:fixed;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            width:100%;
+            height:100%
+        }
+    </style>
+
+    <script type="text/javascript">
+    // URL with parameters that allow us to customize it
+        var editor = 'https://embed.diagrams.net/?embed=1&spin=1&proto=json&configure=1';
+        const NONAME = "Untitled Diagram.drawio"
+        var initial = null;
+        // Configuration parameters. Most of these are self explanatory.
+        var configs = new Object();
+            configs.version = 1.0;
+            configs.defaultFonts= ["Red Hat Display", "Red Hat Text"];
+            configs.defaultLibraries = "basic";
+            configs.presetColors = ["689B7A", "43ADAF", "1D4174", "4C4C4C", "316DC1", "4CB6D6",
+                                    "368A8C", "F7823C", "FAAA4F", "5E40BE", "E5E5E5", "FFFFFF",
+                                    "EE0000", "CC0000", "A30000", "820000", "EEEEEE", "CCCCCC",
+                                    "AAAAAA", "888888", "666666", "444444", "222222", "000000"];
+            configs.defaultColorSchemes = [[null, {"fill": "#689B7A", "stroke": "#689B7A", "font": "#FFFFFF"},
+                                                  {"fill": "#43ADAF", "stroke": "#43ADAF", "font": "#FFFFFF"},
+                                                  {"fill": "#1D4174", "stroke": "#1D4174", "font": "#FFFFFF"},
+                                                  {"fill": "#4C4C4C", "stroke": "#4C4C4C", "font": "#FFFFFF"},
+                                                  {"fill": "#316DC1", "stroke": "#316DC1", "font": "#FFFFFF"},
+                                                  {"fill": "#4CB6D6", "stroke": "#4CB6D6", "font": "#FFFFFF"},
+                                                  {"fill": "#368A8C", "stroke": "#368A8C", "font": "#FFFFFF"},
+                                                  {"fill": "#F7823C", "stroke": "#F7823C", "font": "#FFFFFF"},
+                                                  {"fill": "#FAAA4F", "stroke": "#FAAA4F", "font": "#FFFFFF"},
+                                                  {"fill": "#5E40BE", "stroke": "#5E40BE", "font": "#FFFFFF"},
+                                                  {"fill": "#E5E5E5", "stroke": "#FFFFFF", "font": "#FFFFFF"},
+                                                  {"fill": "#E5E5E5", "stroke": "#689B7A", "font": "#FFFFFF"},
+                                                  {"fill": "#E5E5E5", "stroke": "#43ADAF", "font": "#FFFFFF"},
+                                                  {"fill": "#E5E5E5", "stroke": "#1D4174", "font": "#FFFFFF"},
+                                                  {"fill": "#E5E5E5", "stroke": "#4C4C4C", "font": "#FFFFFF"}]];
+            configs.fontCss = "@font-face { font-family: 'Red Hat Display'; font-style: italic; font-weight: 400; src: url(https://fonts.gstatic.com/s/redhatdisplay/v3/8vIS7wUr0m80wwYf0QCXZzYzUoTg-A6jTY8.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Display'; font-style: italic; font-weight: 700; src: url(https://fonts.gstatic.com/s/redhatdisplay/v3/8vIX7wUr0m80wwYf0QCXZzYzUoTg-AYYaJrCKEM.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Display'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/redhatdisplay/v3/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6h.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Display'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/redhatdisplay/v3/8vIV7wUr0m80wwYf0QCXZzYzUoToRhu0aqrA.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Text'; font-style: italic; font-weight: 400; src: url(https://fonts.gstatic.com/s/redhattext/v1/RrQJbohi_ic6B3yVSzGBrMxQbZcvO8g.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Text'; font-style: italic; font-weight: 700; src: url(https://fonts.gstatic.com/s/redhattext/v1/RrQKbohi_ic6B3yVSzGBrMxQbZ-UHt2GHV0.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Text'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/redhattext/v1/RrQXbohi_ic6B3yVSzGBrMxQaKct.woff2) format('woff2')} " +
+                              "@font-face { font-family: 'Red Hat Text'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/redhattext/v1/RrQIbohi_ic6B3yVSzGBrMxY04I4HO2E.woff2) format('woff2')}";
+            configs.autosaveDelay = 300000;
+            configs.enableCustomLibraries = true;
+            // Custom shape libraries. They have a "U" preceding it and are URLencoded
+            configs.defaultCustomLibraries = ["Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FIcon%20Library",
+              "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FDetail%20Diagrams",
+              "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FLogical%20Diagrams",
+              "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FSchematic%20Diagrams"];
+            // File where the template links are listed.
+            configs.templateFile = "https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/template_links";
+
+        function edit()
+        {
+            // Create an iframe the covers the whole of the screen
+            var iframe = document.createElement('iframe');
+            iframe.setAttribute('frameborder', '0');
+
+            // Customization is done by passing JSON back and forth between the client (browser)
+            // and the server (draw.io). This sets up the receiver.
+            var close = function()
+            {
+                window.removeEventListener('message', receive);
+                document.body.removeChild(iframe);
+            };
+
+            // Check if there is a previously autosaved version of this drawing in 
+            // local browser storage. You can reload a previously autosaved file by 
+            // using a URL with the format:
+            // <URL>?#<name>  - where <name> will be modified as below for loading.
+            try
+            {
+                var draft = localStorage.getItem('.draft-' + name);
+            }
+            catch (e)
+            {
+                console.log('error', e);
+            }
+            
+            // Read a previously autosaved draft from local browser storage.            
+            if (draft != null)
+            {
+                draft = JSON.parse(draft);
+            }
+            
+            // The main event loop function where we receive a message from the
+            // server and determine what we should do with it.
+            var receive = function(evt)
+            {
+
+                if (evt.data.length > 0)
+                {
+                    var msg = JSON.parse(evt.data);
+
+                    // Configure is the first event we should receive and we should
+                    // reply with a configure JSON object defined above.
+                    if (msg.event == 'configure')
+                    {
+                        iframe.contentWindow.postMessage(JSON.stringify({action: 'configure',
+                                                                         config: configs}), '*');
+                    }
+                    // Init starts the loading of draw.io functionality.
+                    else if (msg.event == 'init')
+                    {
+                        // If we found an autosaved draft, respond with a draft dialog that
+                        // asks if the user wants to use that draft we found.
+                        // This is basically an autorecovery feature in case of browser crash.
+                        if (draft != null)
+                        {
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'draft', 
+                                                                             xml: draft.xml, 
+                                                                             name: name, 
+                                                                             editKey: 'editDiagram', 
+                                                                             discardKey: 'discard', 
+                                                                             ignore: false}), '*');
+                        }
+                        // If we were passed a URL, then try and load that URL.
+                        // Note that the file loaded must be on the same domain as
+                        // as the original hosting domain.
+                        // (eg. redhatdemocentral.gitlab.io can only load files from redhatdemocentral.gitlab.io) 
+                        // This is a cross site browser security requirment.
+                        else if (name != NONAME)
+                        {
+                            // If we can't load the URL provided, then move on to the template
+                            // dialog and let the user know we couldn't load the file.
+                            // This error function takes care of those two events.
+                            // Reset file name to NONAME as nothing was loaded.
+                            function xhrerror() {
+                                name = NONAME;
+                                iframe.contentWindow.postMessage(JSON.stringify({action: 'template',
+                                                                                 autosave: 1,
+                                                                                 callback: true}), '*');
+                                iframe.contentWindow.postMessage(JSON.stringify({action: 'dialog', 
+                                                                                 titleKey: 'cannotOpenFile', 
+                                                                                 messageKey: 'fileNotFoundOrDenied', 
+                                                                                 buttonKey: 'ok'}), '*');
+                            }
+                            // Actually loads the remote file from the given URL.
+                            // XMLHttpRequest is an asynchronous call. We set a timeout
+                            // to prevent the browser hanging forever. Any other errors
+                            // are passed on to xhrerror. A successful load calls the 
+                            // load event using the contents of the file.
+                            // Reset file name to NONAME as we can't save back to a URL.
+                            var xhr = new XMLHttpRequest();
+                            xhr.ontimeout = function () {
+                                xhrerror();
+                            };
+                            xhr.onerror = function() {
+                                xhrerror();
+                            }
+                            xhr.onload = function() {
+                                if (xhr.readyState === 4) {
+                                    if (xhr.status === 200) {
+                                        name = NONAME;
+                                        iframe.contentWindow.postMessage(JSON.stringify({action: 'load', 
+                                                                                         autosave: 0,
+                                                                                         xml: xhr.responseText}), '*');
+                                    } else {
+                                        xhrerror();
+                                    }
+                                }
+                            };
+                            xhr.open("GET", name, true);
+                            xhr.timeout = 2000;
+                            xhr.send(null);
+                        }
+                        // If there's no draft and no URL given, then respond with
+                        // a template dialog.
+                        else
+                        {
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'template',
+                                                                             autosave: 1,
+                                                                             callback: true}), '*');
+                        }
+                    }
+                    // If the user decided to edit the autosaved draft that we found, load
+                    // it in here.
+                    else if (msg.event == 'draft')
+                    {
+                        if (msg.result == 'edit')
+                        {
+                            autosave(draft.xml, name);
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'load', 
+                                                                             autosave: 1, 
+                                                                             xml: draft.xml}), '*');
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'status', 
+                                                                             modified: true}), '*');
+                        }
+                        // The user declined to edit the autosaved draft. Progress to the
+                        // template dialog.
+                        else
+                        {
+                            draft = null;
+                            removeautosave(name);
+                            name = NONAME;
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'template',
+                                                                             autosave: 1, 
+                                                                             callback: true}), '*');
+                        } 
+                    }
+                    // First remove any existing autosave with the name provided.
+                    // Create a new autosave with the name provided in the template
+                    // dialog and proceed to loading the template. Mark the file modified
+                    // so autosave will kick in automatically.
+                    else if (msg.event == 'template')
+                    {
+                        name = msg.name;
+                        removeautosave(name);
+                        autosave(msg.xml, name);
+                        iframe.contentWindow.postMessage(JSON.stringify({action: 'load',
+                                                                         autosave: 1,
+                                                                         xml: msg.xml}), '*');
+                        iframe.contentWindow.postMessage(JSON.stringify({action: 'status', 
+                                                                         modified: true}), '*');
+                    }
+                    // The user has responded to a filename prompt. Remove the old autosave
+                    // file and replace it with the new filename.
+                    else if (msg.event == 'prompt')
+                    {
+                        if (msg.message && msg.value != NONAME)
+                        {
+                            autosave(msg.xml, msg.value);
+                            removeautosave(name);
+                            name = msg.value;
+                            autosave(msg.xml, name);
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'export',
+                                                                             format: 'xmlsvg'}), '*');
+                        }
+                        // The user did not change the filename from the default, but clicked
+                        // save. Prompt them with an error indicating that they need to rename
+                        // the file. (Need a better error message, but could not find one in
+                        // the translated strings file.)
+                        else if (msg.message && msg.value == NONAME) 
+                        {
+                            name = NONAME;
+                            autosave(msg.xml, name);
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'dialog', 
+                                                                             titleKey: 'errorSavingFile', 
+                                                                             messageKey: 'errorRenamingFile', 
+                                                                             buttonKey: 'ok'}), '*');
+                        }
+                        // The user has canceled the filename prompt. Basically do nothing
+                        // except autosave.
+                        else
+                        {
+                            name = NONAME;
+                            autosave(msg.xml, name);
+                        }
+                    }
+                    // Recevied an autosave event, so autosave the file.
+                    // Autosave is triggered on each change to the file as well as time based.
+                    // This prevents data loss in case of browser crash.
+                    else if (msg.event == 'autosave')
+                    {
+                        autosave(msg.xml, name);
+                    }
+                    // The user clicked save. Handle the request.
+                    // This function will be followed by an export call which will actually
+                    // download the file.
+                    else if (msg.event == 'save')
+                    {
+                        // The user has not given this file a name. Respond with a prompt to
+                        // ask for a filename.
+                        if (name == NONAME)
+                        {
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'prompt',
+                                                                             title: 'Enter a file name', 
+                                                                             okKey: 'ok', 
+                                                                             defaultValue: name}), '*');
+                        }
+                        // The user has previously provided a filename. Export the file under
+                        // that name.
+                        else
+                        {
+                            autosave(msg.xml, name);
+                            iframe.contentWindow.postMessage(JSON.stringify({action: 'export',
+                                                                             format: 'xmlsvg'}), '*');
+                        }
+                    }
+                    // The user has exported the document. Autosave and download the file.
+                    else if (msg.event == 'export')
+                    {
+                        initial.setAttribute('src', msg.data);
+                        autosave(msg.xml, name);
+                        savefile(msg.xml, name);
+                    }
+                    // The user has exited. Remove the autosave and close.
+                    else if (msg.event == 'exit')
+                    {
+                        removeautosave(name);
+                        draft = null;
+                        close();
+                    }
+                }
+            };
+
+            window.addEventListener('message', receive);
+            iframe.setAttribute('src', editor);
+            document.body.appendChild(iframe);
+        };
+
+        // Remove the browser local storage
+        function removeautosave(n)
+        {
+            try
+            {
+                localStorage.removeItem('.draft-' + n);
+            }
+            catch (e)
+            {
+                console.log('error', e);
+            }
+        }
+
+        // Autosave the file to browser local storage.
+        // You can investigate browser local storage and see the document there.
+        function autosave(d, n)
+        {
+            try
+            {
+                this.document.activeElement.contentWindow.postMessage(JSON.stringify({action: 'status', 
+                                                                                      messageKey: 'saving', 
+                                                                                      modified: true}), '*');
+                localStorage.setItem('.draft-' + n, JSON.stringify({lastModified: new Date(), xml: d}));
+            }
+            catch (e)
+            {
+                console.log('error', e);
+            }
+        }
+
+        // Function that actually handles the file download. Calls filesaver.js script
+        // to create a file and download it.
+        function savefile(d, f)
+        {
+            try
+            {
+                var blob = new Blob([d], {type: "data:application/xml"});
+                saveAs(blob, f);
+            }
+            catch (e) 
+            {
+                window.open("data:application/xml" + encodeURIComponent(d), '_blank' ,'');
+            }
+        };
+        
+        // Function that loads on page load. Starts the whole process when the body of
+        // the page is loaded. (See <body> tag)
+        function load()
+        {
+            initial = document.getElementById('image')
+            start();
+        };
+        
+        // Function called from load(). Checks if there are parameters added to the URL and
+        // saves them in the variable "name".
+        // <URL>?#<name> = will attempt to load a file called .draft-<name> from browser
+        //                local storage. Use this to recover a file after a browser crash.
+        // <URL>?#<URL> = will attempt to load a file at the URL. Note that the base URL and
+        //               the hosting URL must be on the same host due to cross site
+        //               security enforced by the browser.
+        function start()
+        {
+            name = (window.location.hash.length > 1) ? window.location.hash.substring(1) : NONAME;
+            edit();
+        };
+        
+        window.addEventListener('hashchange', start);
+    </script>
+</head>
+<body onload="load();">
+<img id="image" style="max-width:100%;cursor:pointer;" src="" />
+<div style="position:fixed;font-family:Arial,Helvetica;font-size:10pt;color:#cccccc;bottom:0px;right:0px;margin-right:10px;margin-bottom:10px;">Powered by <a href="https://www.draw.io" target="_blank"/>draw.io</a></div>
+<script type="text/javascript" src="https://www.draw.io/embed.js"></script>
+<!–– 
+     FileSaver.js implemented by Eli Grey - https://github.com/eligrey/FileSaver.js
+     This script allows you to download draw.io files. There is no cross-platform way
+     in javascript to actually save a file that is created in the browser as opposed
+     to downloading a file from a server.
+-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/eligrey/FileSaver.js@v2.0.2/dist/FileSaver.js"></script>
+</body>
+</html>

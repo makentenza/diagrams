@@ -1,0 +1,89 @@
+{
+  "directory": "./LogicalLibrary/",
+  "library": [
+    {
+      "name": "Application Service",
+      "type": "Service",
+      "file": "Application_service.xml",
+      "color": "green"
+    },
+    {
+      "name": "Infrastructure Service",
+      "type": "Service",
+      "file": "Infrastructure_service.xml",
+      "color": "lightblue"
+    },
+    {
+      "name": "Developer Service",
+      "type": "Service",
+      "file": "Developer_service.xml",
+      "color": "darkblue"
+    },
+    {
+      "name": "General Service",
+      "type": "Service",
+      "file": "General_service.xml",
+      "color": "darkgray"
+    },
+    {
+      "name": "Blank Service",
+      "type": "Service",
+      "file": "Blank_service.xml",
+      "color": "gray"
+    },
+    {
+      "name": "Application Service with Detail",
+      "type": "ServiceDetail",
+      "file": "Application_service_detail.xml",
+      "color": "green"
+    },
+    {
+      "name": "Infrastructure Service with Detail",
+      "type": "ServiceDetail",
+      "file": "Infrastructure_service_detail.xml",
+      "color": "lightblue"
+    },
+    {
+      "name": "Developer Service with Detail",
+      "type": "ServiceDetail",
+      "file": "Developer_service_detail.xml",
+      "color": "darkblue"
+    },
+    {
+      "name": "General Service with Detail",
+      "type": "ServiceDetail",
+      "file": "General_service_detail.xml",
+      "color": "darkgray"
+    },
+    {
+      "name": "Blank Service with Detail",
+      "type": "ServiceDetail",
+      "file": "Blank_service_detail.xml",
+      "color": "gray"
+    },
+    {
+      "name": "Application Components",
+      "type": "GroupBox",
+      "file": "Application_components.xml",
+      "color": "green"
+    },
+    {
+      "name": "Infrastructure Services",
+      "type": "GroupBox",
+      "file": "Infrastructure_services.xml",
+      "color": "lightblue"
+    },
+    {
+      "name": "Developer Services",
+      "type": "GroupBox",
+      "file": "Developer_services.xml",
+      "color": "darkblue"
+    },
+    {
+      "name": "General Services",
+      "type": "GroupBox",
+      "file": "General_services.xml",
+      "color": "darkgray"
+    }
+  ]
+}

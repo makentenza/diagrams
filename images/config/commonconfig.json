@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "green": "#689b7a",
+    "lightblue": "#43adaf",
+    "darkblue": "#1d4174",
+    "darkgray": "#4c4c4c",
+    "gray": "#cccccc",
+    "medium gray": "#dcdcdc",
+    "light gray": "#e6e6e6",
+    "royalblue": "#316dc1",
+    "skyblue": "#4cb6d6",
+    "teal": "#368a8c",
+    "orange": "#f7823c",
+    "gold": "#faaa4f",
+    "purple": "#5e40be",
+    "white": "#ffffff"
+  }
+}

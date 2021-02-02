@@ -1,0 +1,250 @@
+{
+  "directory": "./SchematicLibrary/",
+  "library": [
+    {
+      "name": "Service",
+      "type": "Element",
+      "svg": "templates/ServiceBackground_template.svg",
+      "file": "Service.xml",
+      "color": "medium gray"
+    },
+    {
+      "name": "Service with storage",
+      "type": "StorageElement",
+      "svg": "templates/ServiceBackgroundStorage_template.svg",
+      "file": "Service_with_storage.xml",
+      "color": "medium gray"
+    },
+    {
+      "name": "Node",
+      "type": "Node",
+      "svg": "templates/NodeBackground_template.svg",
+      "file": "Node.xml",
+      "color": "medium gray"
+    },
+    {
+      "name": "Node with storage",
+      "type": "StorageNode",
+      "svg": "templates/NodeBackgroundStorage_template.svg",
+      "file": "Node_with_storage.xml",
+      "color": "medium gray"
+    },
+    {
+      "name": "Control plane/management",
+      "type": "BoxOpaque",
+      "svg": "",
+      "file": "Control_plane_management.xml",
+      "color": "white"
+    },
+    {
+      "name": "ZONE/GROUP LABEL",
+      "type": "BoxTransparent",
+      "svg": "",
+      "file": "Zone_group_label.xml",
+      "color": "skyblue"
+    },
+    {
+      "name": "PLATFORM",
+      "type": "BoxOpaque",
+      "svg": "",
+      "file": "Platform.xml",
+      "color": "light gray"
+    },
+    {
+      "name": "Network 1",
+      "type": "Network",
+      "svg": "",
+      "file": "Blue_network.xml",
+      "color": "royalblue"
+    },
+    {
+      "name": "Network 2",
+      "type": "Network",
+      "svg": "",
+      "file": "Sky_blue_network.xml",
+      "color": "skyblue"
+    },
+    {
+      "name": "Network 3",
+      "type": "Network",
+      "svg": "",
+      "file": "Teal_network.xml",
+      "color": "teal"
+    },
+    {
+      "name": "Network 4",
+      "type": "Network",
+      "svg": "",
+      "file": "Orange_network.xml",
+      "color": "orange"
+    },
+    {
+      "name": "Network 5",
+      "type": "Network",
+      "svg": "",
+      "file": "Gold_network.xml",
+      "color": "gold"
+    },
+    {
+      "name": "Network 6",
+      "type": "Network",
+      "svg": "",
+      "file": "Purple_network.xml",
+      "color": "purple"
+    },
+    {
+      "name": "Data",
+      "type": "Data",
+      "svg": "",
+      "file": "Data.xml",
+      "color": "darkgray"
+    },
+    {
+      "name": "Callout 1",
+      "type": "Callout",
+      "svg": "",
+      "file": "Blue_callout.xml",
+      "color": "royalblue"
+    },
+    {
+      "name": "Callout 2",
+      "type": "Callout",
+      "svg": "",
+      "file": "Sky_blue_callout.xml",
+      "color": "skyblue"
+    },
+    {
+      "name": "Callout 3",
+      "type": "Callout",
+      "svg": "",
+      "file": "Teal_callout.xml",
+      "color": "teal"
+    },
+    {
+      "name": "Callout 4",
+      "type": "Callout",
+      "svg": "",
+      "file": "Orange_callout.xml",
+      "color": "orange"
+    },
+    {
+      "name": "Callout 5",
+      "type": "Callout",
+      "svg": "",
+      "file": "Gold_callout.xml",
+      "color": "gold"
+    },
+    {
+      "name": "Callout 6",
+      "type": "Callout",
+      "svg": "",
+      "file": "Purple_callout.xml",
+      "color": "purple"
+    },
+    {
+      "name": "Network",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-Diagrams-Network-A-White-RGB.svg",
+      "file": "Network.xml",
+      "color": ""
+    },
+    {
+      "name": "Message",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-Envelope-A-White-RGB.svg",
+      "file": "Message.xml",
+      "color": ""
+    },
+    {
+      "name": "Event Streaming",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-Software_and_technologies-Data-A-White-RGB.svg",
+      "file": "Event_streaming.xml",
+      "color": ""
+    },
+    {
+      "name": "Decision service",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-People_and_Audiences-Architect-A-White-RGB.svg",
+      "file": "Decision_service.xml",
+      "color": ""
+    },
+    {
+      "name": "Integration point",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-Agile_Integration-A-White-RGB.svg",
+      "file": "Integration_point.xml",
+      "color": ""
+    },
+    {
+      "name": "API name",
+      "type": "CalloutImage",
+      "svg": "Icon-Red_Hat-API-A-White-RGB.svg",
+      "file": "API_name.xml",
+      "color": ""
+    },
+    {
+      "name": "Edge devices",
+      "type": "Image",
+      "svg": "Edge_devices.svg",
+      "file": "Edge_devices.xml",
+      "color": ""
+    },
+    {
+      "name": "Computer",
+      "type": "Image",
+      "svg": "Computer.svg",
+      "file": "Computer.xml",
+      "color": ""
+    },
+    {
+      "name": "Mobile",
+      "type": "Image",
+      "svg": "Mobile.svg",
+      "file": "Mobile.xml",
+      "color": ""
+    },
+    {
+      "name": "User",
+      "type": "Image",
+      "svg": "User.svg",
+      "file": "User.xml",
+      "color": ""
+    },
+    {
+      "name": "Server",
+      "type": "Image",
+      "svg": "Server.svg",
+      "file": "Server.xml",
+      "color": ""
+    },
+    {
+      "name": "Virtual server",
+      "type": "Image",
+      "svg": "Virtual_server.svg",
+      "file": "Virtual_server.xml",
+      "color": ""
+    },
+    {
+      "name": "Storage",
+      "type": "Image",
+      "svg": "Storage.svg",
+      "file": "Storage.xml",
+      "color": ""
+    },
+    {
+      "name": "Cloud",
+      "type": "Image",
+      "svg": "Cloud.svg",
+      "file": "Cloud.xml",
+      "color": ""
+    },
+    {
+      "name": "Sensor",
+      "type": "Image",
+      "svg": "Sensor.svg",
+      "file": "Sensor.xml",
+      "color": ""
+    }
+ ]
+}

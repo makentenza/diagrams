@@ -1,0 +1,12 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="2" value="##LABEL##" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#FFFFFF;rounded=0;strokeWidth=2;fontFamily=Red Hat Text;fontSize=10;fontColor=#4C4C4C;labelBackgroundColor=none;html=1;labelBorderColor=none;startArrow=oval;startFill=1;startSize=6;endArrow=oval;endFill=1;endSize=6;snapToPoint=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" edge="1" parent="1">
+			<mxGeometry relative="1" as="geometry">
+				<mxPoint as="sourcePoint"/>
+				<mxPoint x="140" as="targetPoint"/>				
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>

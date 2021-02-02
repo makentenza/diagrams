@@ -1,0 +1,75 @@
+{
+  "directory": "./DetailLibrary/",
+  "library": [
+    {
+      "name": "Application Component",
+      "type": "DetailElement",
+      "svg": "templates/DetailBackground_template.svg",
+      "file": "Application_component.xml",
+      "color": "green"
+    },
+    {
+      "name": "Infrastructure Service",
+      "type": "DetailElement",
+      "svg": "templates/DetailBackground_template.svg",
+      "file": "Infrastructure_service.xml",
+      "color": "lightblue"
+    },
+    {
+      "name": "Developer Service",
+      "type": "DetailElement",
+      "svg": "templates/DetailBackground_template.svg",
+      "file": "Developer_service.xml",
+      "color": "darkblue"
+    },
+    {
+      "name": "General Service",
+      "type": "DetailElement",
+      "svg": "templates/DetailBackground_template.svg",
+      "file": "General_service.xml",
+      "color": "darkgray"
+    },
+    {
+      "name": "Network 1",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_1.svg",
+      "color": "royalblue"
+    },
+    {
+      "name": "Network 2",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_2.svg",
+      "color": "skyblue"
+    },
+    {
+      "name": "Network 3",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_3.svg",
+      "color": "teal"
+    },
+    {
+      "name": "Network 4",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_4.svg",
+      "color": "orange"
+    },
+    {
+      "name": "Network 5",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_5.svg",
+      "color": "gold"
+    },
+    {
+      "name": "Network 6",
+      "type": "DetailNetwork",
+      "svg": "templates/DetailNetwork_template.svg",
+      "file": "Network_6.svg",
+      "color": "purple"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Control plane/management" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fillColor=#ffffff;fontFamily=Red Hat Text;fontSize=16;align=center;strokeColor=none;editable=1;movable=1;rotatable=0;cloneable=0;deletable=1;connectable=0;recursiveResize=0;strokeWidth=2;fontColor=#4C4C4C;spacing=10;spacingLeft=0;snapToPoint=1;imageAspect=0;fontStyle=0" vertex="1" parent="1">
+            <mxGeometry width="340" height="40" as="geometry"/>
+        </mxCell>
+    </root>
+</mxGraphModel>
