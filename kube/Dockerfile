@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim AS build
+FROM quay.io/makentenza/diagrams-builder:latest AS build
 
 RUN apt-get update -y && \
 # this solves some weird issue with openjdk-11-jdk-headless
@@ -13,9 +13,9 @@ RUN cd /tmp && \
     cd /tmp/drawio/etc/build/ && \
     ant war
 
-FROM tomcat:9-jre11-slim
+FROM quay.io/makentenza/diagrams-tomcat:latest
 
-LABEL maintainer="JGraph Ltd"
+LABEL maintainer="Marcos Entenza"
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
