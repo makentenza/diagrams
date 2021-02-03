@@ -47,7 +47,7 @@ RUN mkdir -p $CATALINA_HOME/webapps/draw && \
 
 # Copy docker-entrypoint
 COPY entrypoint.sh /
-RUN chmod +x entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 WORKDIR $CATALINA_HOME
 
