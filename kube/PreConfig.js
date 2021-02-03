@@ -1,0 +1,2 @@
+window.DRAWIO_BASE_URL = 'http://diagrams-test.apps.cluster-26d8.26d8.example.opentlc.com';
+window.DRAWIO_VIEWER_URL = 'http://diagrams-test.apps.cluster-26d8.26d8.example.opentlc.com/js/viewer.min.js';
