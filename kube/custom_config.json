@@ -39,15 +39,7 @@
       "orthogonalLoop":"1"
    },
    "defaultLibraries":"basic",
-   "defaultCustomLibraries":[
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FApplication%20Icons",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FApplication%20Services%20Icons",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FInfrastructure%20Icons",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FService%20Icons",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FDetail%20Diagrams",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FLogical%20Diagrams",
-    "Uhttps%3A%2F%2Fredhatdemocentral.gitlab.io%2Fportfolio-architecture-tooling%2F<BRANCH>%2FLibraries%2FSchematic%20Diagrams"
-   ],
+   "defaultCustomLibraries": ["https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Services_Icons"],
    "defaultMacroParameters":{
       "border":false,
       "toolbarStyle":"inline"
