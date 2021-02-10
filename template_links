@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <templates>
-	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/DetailDiagram.xml" title="Detail Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/DetailDiagram.png" libs=""/>
-	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/LogicalDiagram.xml" title="Logical Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/LogicalDiagram.png" libs=""/>
-	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/SchematicDiagram.xml" title="Schematic Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/SchematicDiagram.png" libs=""/>
-	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/RedHatAllAssets.xml" title="All Diagrams" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/<BRANCH>/Templates/RedHatAllAssets.png" libs=""/>
+	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/DetailDiagram.xml" title="Detail Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/DetailDiagram.png" libs=""/>
+	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/LogicalDiagram.xml" title="Logical Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/LogicalDiagram.png" libs=""/>
+	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/SchematicDiagram.xml" title="Schematic Diagram" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/SchematicDiagram.png" libs=""/>
+	<template section="Red Hat Templates" url="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/RedHatAllAssets.xml" title="All Diagrams" preview="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/Templates/RedHatAllAssets.png" libs=""/>
 </templates>
