@@ -67,7 +67,7 @@
       "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FSchematic_Diagrams.xml",
       "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FService_Icons.xml"
    ],
-   "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links",
+   "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links.xml",
    "defaultMacroParameters":{
       "border":false,
       "toolbarStyle":"inline"
