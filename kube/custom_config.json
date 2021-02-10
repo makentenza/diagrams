@@ -38,6 +38,7 @@
       "jettySize":"auto",
       "orthogonalLoop":"1"
    },
+   "enableCustomLibraries": true,
    "defaultLibraries":"basic",
    "defaultCustomLibraries": ["https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Services_Icons"],
    "defaultMacroParameters":{
