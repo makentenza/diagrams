@@ -60,16 +60,34 @@
    "libraries": [
       {
         "title": {
-          "main": "Mak"
+          "main": "Portfolio Architecture Library"
         },
         "entries": [
           {
-            "id": "mak-collection",
+            "id": "application-icons",
             "title": {
-              "main": "Mak"
+              "main": "Application Icons"
             },
             "desc": {
-              "main": "My personal collection for Draw.Io/Diagrams.net"
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Application Icons"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Icons.xml"
+              }
+            ]
+          },
+          {
+            "id": "application-service-icons",
+            "title": {
+              "main": "Application Service Icons"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
             },
             "libs": [
               {
@@ -77,22 +95,15 @@
                   "main": "Service Icons"
                 },
                 "prefetch": true,
-                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Service_Icons.xml"
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Services_Icons.xml"
               }
             ]
           }
         ]
       }
     ],
-   "defaultLibraries":"basic;mak-collection",
+   "defaultLibraries":"basic;application-icons;application-service-icons",
    "defaultCustomLibraries": [
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Icons.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Services_Icons.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Detail_Diagrams.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Infrastructure_Icons.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Logical_Diagrams.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Schematic_Diagrams.xml",
-      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Service_Icons.xml"
    ],
    "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links.xml",
    "defaultMacroParameters":{
