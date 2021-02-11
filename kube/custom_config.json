@@ -98,11 +98,65 @@
                 "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Services_Icons.xml"
               }
             ]
+          },
+          {
+            "id": "infrastructure-icons",
+            "title": {
+              "main": "Infrastructure Icons"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Infrastructure Icons"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Infrastructure_Icons.xml"
+              }
+            ]
+          },
+          {
+            "id": "service-icons",
+            "title": {
+              "main": "Service Icons"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Service Icons"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Service_Icons.xml"
+              }
+            ]
+          },
+          {
+            "id": "detail-diagrams",
+            "title": {
+              "main": "Detail Diagrams"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Detail Diagrams"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Detail_Diagrams.xml"
+              }
+            ]
           }
         ]
       }
     ],
-   "defaultLibraries":"basic;application-icons;application-service-icons",
+   "defaultLibraries":"basic;application-icons;application-service-icons;infrastructure-icons;service-icons;detail-diagrams",
    "defaultCustomLibraries": [
    ],
    "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links.xml",
