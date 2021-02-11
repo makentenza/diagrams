@@ -6,3 +6,5 @@ COPY PostConfig.js /usr/local/tomcat/webapps/draw/js/
 COPY entrypoint.sh /
 
 RUN chmod +x /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]
