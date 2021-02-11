@@ -152,11 +152,47 @@
                 "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Detail_Diagrams.xml"
               }
             ]
+          },
+          {
+            "id": "logical-diagrams",
+            "title": {
+              "main": "Logical Diagrams"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Logical Diagrams"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Logical_Diagrams.xml"
+              }
+            ]
+          },
+          {
+            "id": "schematic-diagrams",
+            "title": {
+              "main": "Schematic Diagrams"
+            },
+            "desc": {
+              "main": "Portfolio Architecture Library"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Schematic Diagrams"
+                },
+                "prefetch": true,
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Schematic_Diagrams.xml"
+              }
+            ]
           }
         ]
       }
     ],
-   "defaultLibraries":"basic;application-icons;application-service-icons;infrastructure-icons;service-icons;detail-diagrams",
+   "defaultLibraries":"basic;application-icons;application-service-icons;infrastructure-icons;service-icons;detail-diagrams;logical-diagrams;schematic-diagrams",
    "defaultCustomLibraries": [
    ],
    "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links.xml",
