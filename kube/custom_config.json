@@ -86,13 +86,13 @@
     ],
    "defaultLibraries":"basic;mak-collection",
    "defaultCustomLibraries": [
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Icons.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Services_Icons.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FDetail_Diagrams.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FInfrastructure_Icons.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FLogical_Diagrams.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FSchematic_Diagrams.xml",
-      "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FService_Icons.xml"
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Icons.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Application_Services_Icons.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Detail_Diagrams.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Infrastructure_Icons.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Logical_Diagrams.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Schematic_Diagrams.xml",
+      "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Service_Icons.xml"
    ],
    "templateFile": "https://raw.githubusercontent.com/makentenza/diagrams/master/template_links.xml",
    "defaultMacroParameters":{
