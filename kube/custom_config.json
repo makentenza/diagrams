@@ -60,13 +60,13 @@
    "libraries": [
       {
         "title": {
-          "main": "Collection"
+          "main": "Mak"
         },
         "entries": [
           {
-            "id": "test-collection",
+            "id": "mak-collection",
             "title": {
-              "main": "Collection"
+              "main": "Mak"
             },
             "desc": {
               "main": "My personal collection for Draw.Io/Diagrams.net"
@@ -74,17 +74,17 @@
             "libs": [
               {
                 "title": {
-                  "main": "Azure Compute"
+                  "main": "Service Icons"
                 },
                 "prefetch": true,
-                "url": "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fpacodelacruz%2Fdiagrams-net-azure-libraries%2Fmaster%2FAzure-Compute.xml"
+                "url": "https://raw.githubusercontent.com/makentenza/diagrams/master/Libraries/Service_Icons.xml"
               }
             ]
           }
         ]
       }
     ],
-   "defaultLibraries":"basic",
+   "defaultLibraries":"basic;mak-collection",
    "defaultCustomLibraries": [
       "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Icons.xml",
       "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Services_Icons.xml",
