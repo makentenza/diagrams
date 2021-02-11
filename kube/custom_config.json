@@ -57,6 +57,33 @@
       "jettySize":"auto",
       "orthogonalLoop":"1"
    },
+   "libraries": [
+      {
+        "title": {
+          "main": "Collection"
+        },
+        "entries": [
+          {
+            "id": "test-collection",
+            "title": {
+              "main": "Collection"
+            },
+            "desc": {
+              "main": "My personal collection for Draw.Io/Diagrams.net"
+            },
+            "libs": [
+              {
+                "title": {
+                  "main": "Azure Compute"
+                },
+                "prefetch": true,
+                "url": "Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fpacodelacruz%2Fdiagrams-net-azure-libraries%2Fmaster%2FAzure-Compute.xml"
+              }
+            ]
+          }
+        ]
+      }
+    ],
    "defaultLibraries":"basic",
    "defaultCustomLibraries": [
       "https%3A%2F%2Fraw.githubusercontent.com%2Fmakentenza%2Fdiagrams%2Fmaster%2FLibraries%2FApplication_Icons.xml",
